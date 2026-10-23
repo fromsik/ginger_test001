@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="ce609a73-69ba-4556-81a9-754bba5c0e69" ItemType="Agent" CreatedBy="moll1" Created="202610080836" GingerVersion="26.6.0.0" Version="1" LastUpdateBy="moll1" LastUpdate="202610080836" />
+<Agent AgentType="Driver" DriverType="Selenium" Guid="ce609a73-69ba-4556-81a9-754bba5c0e69" Name="qatracer" Platform="Web">
+<DriverConfiguration>
+<DriverConfigParam Description="Proxy Auto Config Url" Guid="7c47df06-93e3-471f-8ca5-9de8999f9cc9" Parameter="ProxyAutoConfigUrl" />
+<DriverConfigParam Description="EnableNativeEvents(true) so as to perform native events smoothly on IE " Guid="634cda83-448b-466d-95f8-d58daca82e62" Parameter="EnableNativeEvents" Value="false" />
+<DriverConfigParam Description="Auto Detect Proxy Setting?" Guid="6786061a-99a7-43a6-8b5d-b69503c6645c" Parameter="AutoDetect" Value="true" />
+<DriverConfigParam Description="Path to extension to be enabled" Guid="1ea8c40e-4d27-43d0-856a-b0be56885b4f" Parameter="ExtensionPath" />
+<DriverConfigParam Description="Only for Internet Explorer |  Set &quot;false&quot; if dont want to clear the Internet Explorer cache before launching the browser" Guid="ea0171de-ca25-422a-9871-170e9d5e9c32" Parameter="EnsureCleanSession" Value="true" />
+<DriverConfigParam Description="Ignore Internet Explorer protected mode" Guid="30dbca98-48ec-4ad8-8f04-16ff570c7c86" Parameter="IgnoreIEProtectedMode" Value="true" />
+<DriverConfigParam Description="Only for Internet Explorer &amp; Firefox | Set &quot;true&quot; for using 64Bit Browser" Guid="be9815b6-dfb4-444d-a3ce-bf1fb1eacf6c" Parameter="Use64Bitbrowser" Value="false" />
+<DriverConfigParam Description="Use specific Version of browser. Only Testing browser versions are supported." Guid="01f12af6-d40f-4e04-9a82-8e378674f02d" Parameter="BrowserVersion" />
+<DriverConfigParam Description="Use Browser In Private/Incognito Mode (Please use 64bit Browse with Internet Explorer " Guid="4971e463-35c3-4df2-92af-fbec1db47716" Parameter="BrowserPrivateMode" Value="false" />
+<DriverConfigParam Description="Set &quot;true&quot; to Launch the Browser minimized" Guid="448ec55b-8d2e-4f7c-9ccc-bd7558a00fb1" Parameter="BrowserMinimized" Value="false" />
+<DriverConfigParam Description="Set the minimum log level to read the console logs from the browser console." Guid="332e72ac-a107-41c9-8382-8fea9a97c924" Parameter="BrowserLogLevel" Value="3" />
+<DriverConfigParam Description="Only for Edge: Open Edge browser in IE Mode" Guid="15cad578-173e-4648-ba92-090cb9da0eb3" Parameter="OpenIEModeInEdge" Value="false" />
+<DriverConfigParam Description="Provide the path to the browser executable." Guid="db0f0897-00dc-4b1f-ab9e-b93c53891ffc" Parameter="BrowserExecutablePath" />
+<DriverConfigParam Description="Hide the Driver Console (Command Prompt) Window" Guid="bcca3775-3dcd-4464-88dc-931f5c454362" Parameter="HideConsoleWindow" Value="false" />
+<DriverConfigParam Description="Only For Chrome : Use a valid device name from the DevTools Emulation panel." Guid="fe0176f7-ac92-4805-bc8a-9cfea8817abb" Parameter="EmulationDeviceName" />
+<DriverConfigParam Description="Only For Chrome &amp; Firefox : A browser's user agent string (UA) helps identify which browser is being used, what version, and on which operating system" Guid="2d32471e-054e-4b41-90a3-1c1f32a0fca0" Parameter="BrowserUserAgent" />
+<DriverConfigParam Description="The height in pixels of the browser's viewable area" Guid="6f50b6e4-6bc9-4f3b-a798-5566e91305e9" Parameter="BrowserHeight" />
+<DriverConfigParam Description="The width in pixels of the browser's viewable area" Guid="e641f523-30cd-4109-8369-f88b0a9b4b2a" Parameter="BrowserWidth" />
+<DriverConfigParam Description="Only for Chrome, Firefox, Edge and Brave | Full path for the User Profile folder" Guid="ad475c05-81be-4920-b036-1b767657b6e2" Parameter="UserProfileFolderPath" />
+<DriverConfigParam Description="Only for Chrome | Define Download Folder path" Guid="00d928d0-46e2-4a3b-9001-a5ea9caff8df" Parameter="DownloadFolderPath" />
+<DriverConfigParam Description="Amount of time the driver should wait when searching for an element if it is not immediately present" Guid="2aa4badb-2e4c-4228-bd55-ff20e872426f" Parameter="ImplicitWait" Value="30" />
+<DriverConfigParam Description="HttpServer Timeout for Web Action Completion. Default/Recommended is minimum 60 secs" Guid="86131d19-9912-40e9-a7c3-c9d652cecb3d" Parameter="HttpServerTimeOut" Value="60" />
+<DriverConfigParam Description="PageLoad Timeout for Web Action Completion" Guid="fb7eaac7-1c63-406f-b58d-4cf16057dbb9" Parameter="PageLoadTimeOut" Value="60" />
+<DriverConfigParam Description="Defines the current session’s page loading strategy.you can change from the default parameter of normal to eager or none" Guid="77cd98f0-ee22-4ba6-9eda-a76cc77c4759" Parameter="PageLoadStrategy" Value="Normal" />
+<DriverConfigParam Description="Start BMP - Browser Mob Proxy (true/false)" Guid="ab43f4a9-61f9-4798-865b-2415d2de7e8f" Parameter="StartBMP" Value="false" />
+<DriverConfigParam Description="Start BMP .BAT File - full path to BMP BAT file" Guid="e4294a2f-dd71-49b1-b459-57f8bcfc881e" Parameter="StartBMPBATFile" Value="C:\...\browsermob\bin\browsermob-proxy.bat" />
+<DriverConfigParam Description="Start BMP Port" Guid="604af41e-8ba9-43cd-a415-9eb48178b7d0" Parameter="StartBMPPort" Value="9090" />
+<DriverConfigParam Description="Take Only Active Frame Or Window Screen Shot In Case Of Failure" Guid="f15c9194-0d03-4d0f-9500-87344c2ae76b" Parameter="TakeOnlyActiveFrameOrWindowScreenShotInCaseOfFailure" Value="false" />
+<DriverConfigParam Description="Start network monitoring log." Guid="0ee88b3b-1e80-4d97-b82a-33601a885b4e" Parameter="StartNetworkMonitoring" Value="false" />
+<DriverConfigParam Description="Selenium line arguments || Set Selenium arguments separated with ; sign" Guid="28c2ec79-ea5c-4aee-8efc-a27ed280240e" Parameter="SeleniumUserArguments" />
+<DriverConfigParam Description="Change to Iframe automatically in case of POM Element execution " Guid="0aec1406-de83-4706-808a-ed4eaa1124e5" Parameter="HandelIFramShiftAutomaticallyForPomElement" Value="true" />
+<DriverConfigParam Description="Sample Value is 'localhost:9222'.This allows to Connect to existing browser session on specific debug port instead of Launching a new browser" Guid="227bcf61-63f6-4269-b4f1-c208287feaa7" Parameter="DebugAddress" />
+<DriverConfigParam Description="Specifies the state of current session’s user prompt handler, You can change it from dismiss, accept, dismissAndNotify, acceptAndNotify, ignore" Guid="8486d026-5643-49cb-bc1b-94d534920dfd" Parameter="UnhandledPromptBehavior" Value="DismissAndNotify" />
+<DriverConfigParam Description="Use custom browser driver. Provide complete driver path with file extension" Guid="efc2be66-c4f1-4587-8364-f26b60d3865f" Parameter="DriverFilePath" />
+<DriverConfigParam Description="Browser Type" Guid="cce287f2-24a4-409e-88be-368b416efd11" Parameter="BrowserType" Value="Chrome" />
+<DriverConfigParam Description="Remote Web Driver Url" Guid="428dc5e3-2609-4848-bd79-b9ead72525b5" Parameter="RemoteWebDriverUrl" />
+<DriverConfigParam Description="Allow ZAP to Perform Security Testing" Guid="1f5ac9dc-757c-417c-ac57-66ea78966f17" Parameter="UseSecurityTesting" Value="false" />
+<DriverConfigParam Description="Proxy Server:Port" Guid="58a88ca5-344a-4c43-a830-82c07ced2ac5" Parameter="Proxy" />
+<DriverConfigParam Description="Set multiple By Pass Proxy URLs separated with ';'|| By Pass Proxy works only when Proxy URL is mentioned" Guid="4c395f3d-67fa-4733-ab75-ac282f778f78" Parameter="ByPassProxy" Value="http://127.0.0.1;http://localhost;" />
+<DriverConfigParam Description="Set &quot;true&quot; to run the browser in background (headless mode) for faster Execution" Guid="8c41b2d6-da34-4a71-9313-433ee370e2ed" Parameter="HeadlessBrowserMode" Value="false" />
+<DriverConfigParam Description="The amount of maximum time (in seconds) to wait for the driver to load/connect" Guid="f8b94d5a-925a-4954-a28f-234572cb4caa" Parameter="DriverLoadWaitingTime" Value="30" />
+</DriverConfiguration>
+</Agent></GingerRepositoryItem>

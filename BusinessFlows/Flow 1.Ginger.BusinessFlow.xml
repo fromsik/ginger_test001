@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="58527740-d351-497a-965c-05b80dea4384" ItemType="BusinessFlow" CreatedBy="moll1" Created="202610080836" GingerVersion="26.6.0.0" Version="1" LastUpdateBy="moll1" LastUpdate="202610080836" />
+<BusinessFlow Guid="58527740-d351-497a-965c-05b80dea4384" Name="Flow 1" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="0f553e62-b146-454b-b6aa-f756a217db5a" PercentAutomated="0%" TargetApplication="qatracer" Type="Regular" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="9d3246d9-564e-44ed-befc-88444e29004d" Name="Group">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="0f553e62-b146-454b-b6aa-f756a217db5a" ActivityName="Activity 1" Guid="8ae951a9-59fd-4704-815e-05cae0ceca84" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="qatracer" Guid="d940af52-a247-4e64-8c55-0a5429196fd7" ParentGuid="f1f69507-1489-4a45-a720-f7c39fe11234" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

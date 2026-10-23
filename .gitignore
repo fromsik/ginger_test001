@@ -1,0 +1,29 @@
+# Ginger 기본 제외 — SolutionRepository.cs:47-68 (v2026.6-Official) 와 같은 문자열.
+# Ginger 는 git 연동 시 이 목록 중 빠진 줄을 이 파일에 덧붙인다(GITSourceControl.cs UpdateGitIgnoreFile).
+AutoSave/
+Recover/
+RecentlyUsed.dat
+Backups/
+ExecutionResults/
+HTMLReports/
+ExecutionResults/GingerExecutionResults.db
+BusinessFlows/Cache/
+RunSetConfigs/Cache/
+SharedRepository/Activities/PrevVersions/
+SharedRepository/Actions/PrevVersions/
+SharedRepository/Variables/PrevVersions/
+SharedRepository/ActivitiesGroup/PrevVersions/
+SharedRepository/Activities/PrevVerions/
+SharedRepository/Actions/PrevVerions/
+SharedRepository/Variables/PrevVerions/
+SharedRepository/ActivitiesGroup/PrevVerions/
+
+# 실측용 추가 제외 — 비밀값·실행 산출물
+# Environment 파라미터에 테스트 계정 비밀번호가 들어간다
+Environments/
+# LiteDB 파일(결과 DB·데이터 소스)
+*.db
+*.ldb
+# 실행 로그·실측 diff 보관본
+*.log
+spike-*.diff

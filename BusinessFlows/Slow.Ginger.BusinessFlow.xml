@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="f824328b-4f51-4510-9306-43d99f7e5672" ItemType="BusinessFlow" CreatedBy="moll1" Created="202610271500" GingerVersion="26.6.0.0" Version="1" LastUpdateBy="moll1" LastUpdate="202610271500" />
+<BusinessFlow Guid="f824328b-4f51-4510-9306-43d99f7e5672" Name="Slow" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="TC-D" ActivityName="TC-D Step 1" AutomationStatus="Automated" ErrorHandlerMappingType="AllAvailableHandlers" Guid="06171c71-02b6-4e4e-9e59-042e602aa4c9" PercentAutomated="100%" TargetApplication="qatracer" Type="Regular">
+<Acts>
+<ActValidation Active="True" Description="check 1=1 after 20s" Guid="8175d8c9-a3d2-4a66-b91f-14d2c2359b02" Platform="NA" StatusConverter="None" Wait="20" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="9e5487bb-b03d-4531-9bf2-21d1d084341c" Param="Value" Value="1=1" />
+</InputValues>
+</ActValidation>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup ExternalID="TC-4917" Guid="0aaacc23-5547-48f6-9af6-9af0154086a6" Name="TC-D">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="06171c71-02b6-4e4e-9e59-042e602aa4c9" ActivityName="TC-D Step 1" Guid="3d2ec6e0-f395-4de8-a813-cc08353ad826" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="qatracer" Guid="90f948c4-4ee4-406a-acf0-245fb21b7535" ParentGuid="f1f69507-1489-4a45-a720-f7c39fe11234" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

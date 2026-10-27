@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="0ba6c526-5afe-462a-ac30-c9a22b4c7491" ItemType="BusinessFlow" CreatedBy="moll1" Created="202610270000" GingerVersion="26.6.0.0" Version="1" LastUpdateBy="moll1" LastUpdate="202610270000" />
+<BusinessFlow Guid="0ba6c526-5afe-462a-ac30-c9a22b4c7491" Name="Multi" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="준비" ActivityName="준비" AutomationStatus="Automated" ErrorHandlerMappingType="AllAvailableHandlers" Guid="a49c51a5-2e82-48e6-b986-4ba72098db6a" PercentAutomated="100%" TargetApplication="qatracer" Type="Regular">
+<Acts>
+<ActValidation Active="True" Description="check 1=1" Guid="e133c120-a2cf-453c-b822-fa00ded30c78" Platform="NA" StatusConverter="None" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="28fa1a6a-2f9e-4ce3-9463-0a8ace8854cf" Param="Value" Value="1=1" />
+</InputValues>
+</ActValidation>
+</Acts>
+</Activity>
+<Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="TC-A" ActivityName="TC-A Step 1" AutomationStatus="Automated" ErrorHandlerMappingType="AllAvailableHandlers" Guid="e9e311b0-9906-43d1-9c1c-36e4a2e2f379" PercentAutomated="100%" TargetApplication="qatracer" Type="Regular">
+<Acts>
+<ActValidation Active="True" Description="check 1=1" Guid="5a33eeb6-153d-43e6-9c8f-ee0b28be922b" Platform="NA" StatusConverter="None" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="0fa3265f-aaf9-4bd3-83d5-d17bc28c8227" Param="Value" Value="1=1" />
+</InputValues>
+</ActValidation>
+</Acts>
+</Activity>
+<Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="TC-B" ActivityName="TC-B Step 1" AutomationStatus="Automated" ErrorHandlerMappingType="AllAvailableHandlers" Guid="b9c95eff-d128-4277-a914-ad0b154c8a1b" PercentAutomated="100%" TargetApplication="qatracer" Type="Regular">
+<Acts>
+<ActValidation Active="True" Description="check 1=1" Guid="79189ad9-4483-4133-8610-6524557a9aa0" Platform="NA" StatusConverter="None" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="785db4fd-0105-4be9-80ee-55d2cd545d5f" Param="Value" Value="1=1" />
+</InputValues>
+</ActValidation>
+</Acts>
+</Activity>
+<Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="TC-B" ActivityName="TC-B Step 2" AutomationStatus="Automated" ErrorHandlerMappingType="AllAvailableHandlers" Guid="6dffb8f5-83ed-46f7-ae3d-d2dea27b7c4a" PercentAutomated="100%" TargetApplication="qatracer" Type="Regular">
+<Acts>
+<ActValidation Active="True" Description="check 1=1" Guid="c2152ef2-d464-4fd0-92e1-0181be207fda" Platform="NA" StatusConverter="None" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="3a9af9e7-15ac-4c79-98e8-b2320e08a5c0" Param="Value" Value="1=1" />
+</InputValues>
+</ActValidation>
+</Acts>
+</Activity>
+<Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="TC-C" ActivityName="TC-C Step 1" AutomationStatus="Automated" ErrorHandlerMappingType="AllAvailableHandlers" Guid="e33f7037-0f1b-4567-8faf-7adeea392ca8" PercentAutomated="100%" TargetApplication="qatracer" Type="Regular">
+<Acts>
+<ActValidation Active="True" Description="check 1=2" Guid="5de9c77f-41de-4ea1-89bc-9f93e43b95f2" Platform="NA" StatusConverter="None" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="9b8f94c1-7544-4774-b14b-23fd04bfc4ed" Param="Value" Value="1=2" />
+</InputValues>
+</ActValidation>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="3daeb966-2eea-4b00-aff3-d29c6ff4c8cd" Name="준비">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="a49c51a5-2e82-48e6-b986-4ba72098db6a" ActivityName="준비" Guid="336f501c-abf4-44a1-9a3a-54a6fd766b75" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup ExternalID="TC-A" Guid="6bf4686d-55c4-4787-875e-ae4628ef119b" Name="TC-A">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="e9e311b0-9906-43d1-9c1c-36e4a2e2f379" ActivityName="TC-A Step 1" Guid="cf17458f-dc02-4482-8925-95c66070b85c" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup ExternalID="TC-B" Guid="12bbe1af-697d-44da-9930-8b96d70b3f08" Name="TC-B">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="b9c95eff-d128-4277-a914-ad0b154c8a1b" ActivityName="TC-B Step 1" Guid="a94a4bf4-f814-48ce-a51f-378d902c5c7b" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="6dffb8f5-83ed-46f7-ae3d-d2dea27b7c4a" ActivityName="TC-B Step 2" Guid="e15ccdc6-d2fb-4352-b5c6-79ae58cf96fd" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup ExternalID="TC-C" Guid="16541a94-9331-432d-b005-2eff34b5f4f4" Name="TC-C">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="e33f7037-0f1b-4567-8faf-7adeea392ca8" ActivityName="TC-C Step 1" Guid="269a1ced-d423-478e-bb41-6ab29adf39b8" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="qatracer" Guid="484b291f-97d8-4327-bba2-c701b06c7cb6" ParentGuid="f1f69507-1489-4a45-a720-f7c39fe11234" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

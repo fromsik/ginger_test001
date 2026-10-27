@@ -55,18 +55,18 @@
 <ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="a49c51a5-2e82-48e6-b986-4ba72098db6a" ActivityName="준비" Guid="336f501c-abf4-44a1-9a3a-54a6fd766b75" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
-<ActivitiesGroup ExternalID="TC-A" Guid="6bf4686d-55c4-4787-875e-ae4628ef119b" Name="TC-A">
+<ActivitiesGroup ExternalID="TC-4914" Guid="6bf4686d-55c4-4787-875e-ae4628ef119b" Name="TC-A">
 <ActivitiesIdentifiers>
 <ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="e9e311b0-9906-43d1-9c1c-36e4a2e2f379" ActivityName="TC-A Step 1" Guid="cf17458f-dc02-4482-8925-95c66070b85c" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
-<ActivitiesGroup ExternalID="TC-B" Guid="12bbe1af-697d-44da-9930-8b96d70b3f08" Name="TC-B">
+<ActivitiesGroup ExternalID="TC-4915" Guid="12bbe1af-697d-44da-9930-8b96d70b3f08" Name="TC-B">
 <ActivitiesIdentifiers>
 <ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="b9c95eff-d128-4277-a914-ad0b154c8a1b" ActivityName="TC-B Step 1" Guid="a94a4bf4-f814-48ce-a51f-378d902c5c7b" />
 <ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="6dffb8f5-83ed-46f7-ae3d-d2dea27b7c4a" ActivityName="TC-B Step 2" Guid="e15ccdc6-d2fb-4352-b5c6-79ae58cf96fd" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
-<ActivitiesGroup ExternalID="TC-C" Guid="16541a94-9331-432d-b005-2eff34b5f4f4" Name="TC-C">
+<ActivitiesGroup ExternalID="TC-4916" Guid="16541a94-9331-432d-b005-2eff34b5f4f4" Name="TC-C">
 <ActivitiesIdentifiers>
 <ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="e33f7037-0f1b-4567-8faf-7adeea392ca8" ActivityName="TC-C Step 1" Guid="269a1ced-d423-478e-bb41-6ab29adf39b8" />
 </ActivitiesIdentifiers>
